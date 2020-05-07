@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  background-color: black;
+  background-image: url('baggrund.jpg');
+  background-size: 100% 100%;
+  font-family: 'Courier Prime', monospace;
+  font-size: 130%;
+}
+
+.overlay {
+  height: 100%;
+
+  background-color: rgba(22,22,22,0.8);
+}
+
+.kolonner {
+  display: flex;
+  flex-flow: row;
+}
+
+.kolonner section p a {
+  color: inherit;
+}
+
+section {
+  width: 50vw;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  font-size: 300%;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+section h1 {
+  color: white;
+}
+section p {
+  color: white;
+}
